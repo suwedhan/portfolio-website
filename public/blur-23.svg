@@ -1,0 +1,17 @@
+<svg width="1080" height="200" viewBox="0 0 1080 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#blur)">
+<ellipse cx="540" cy="100" rx="540" ry="100" fill="url(#gradient)" fill-opacity="0.4"/>
+</g>
+<defs>
+<filter id="blur" x="-50" y="-50" width="1180" height="300" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur"/>
+</filter>
+<linearGradient id="gradient" x1="0" y1="0" x2="1080" y2="200" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#8244FF" stop-opacity="0.8"/>
+<stop offset="50%" stop-color="#ff44aa" stop-opacity="0.5"/>
+<stop offset="100%" stop-color="#8244FF" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
